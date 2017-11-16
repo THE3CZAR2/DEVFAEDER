@@ -8,7 +8,8 @@
 
 • افتح ترمنال وحط
 
-git clone https://github.com/hackr2009/DEVFAEDER && cd DEVFAEDER && chmod +x install.sh && ./install.sh
+git clone https://github.com/hackr2009/DEVFAEDER 
+
 • انتر وراه حط الكودات بالتسلسل •
 
  cd DEVFAEDER 
@@ -23,7 +24,7 @@ git clone https://github.com/hackr2009/DEVFAEDER && cd DEVFAEDER && chmod +x ins
 
 • او نصب بكود واحد
 
-.com/hackr2009/DEVFAEDER && cd DEVFAEDER && chmod +x install.sh && ./install.sh
+git clone https://github.com/hackr2009/DEVFAEDER                                                                                                                                                                cd DEVFAEDER                                                                                                                                                                                                                                         chmod +x install.sh                                                                                                                                                                                                                                   ./install.sh
 
 • وراح يطلب منك اثناء التنصيب تحط y او n دائما اختار y •
 
@@ -35,15 +36,13 @@ git clone https://github.com/hackr2009/DEVFAEDER && cd DEVFAEDER && chmod +x ins
 
 redis-server
 
-ֆ • • • • • • • • • • • • • ֆ
-
 - وراه تروح ع ملف sudo.lua
 
 - صعد نفسك وصعد بوتك مطور
 
 -  وسوي رن من الملف
 
-Faeder. Sh
+Faeder.Sh
 
 مبروك عليك افضل سورس
 
