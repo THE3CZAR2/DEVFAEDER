@@ -1,9 +1,62 @@
 #!/usr/bin/env bash
-
-cd $HOME/DEVFAEDER
-token="TOKEN"
-install() {
- 
+cd DEVFAEDER
+red() {
+  printf '\e[1;31m%s\n\e[0;39;49m' "$@"
+}
+green() {
+  printf '\e[1;32m%s\n\e[0;39;49m' "$@"
+}
+white() {
+  printf '\e[1;37m%s\n\e[0;39;49m' "$@"
+}
+yellow() {
+  printf '\e[1;33m%s\n\e[0;39;49m' "$@"
+}
+Dev() {
+  printf '\e[1;36m%s\n\e[0;39;49m' "$@"
+}
+aa() {
+ sudo apt-get install
+}
+function logo1_TshAkE() {
+green "     »»             Welcome to TshAkE APi bot                       ««      "
+green "     »»               I install it for you                          ««      "
+yellow ""
+yellow ""
+yellow ""
+yellow "           _____    _        _    _    _____    "
+yellow "          |_   _|__| |__    / \  | | _| ____|   "
+yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
+yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
+yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
+yellow "                                          "
+yellow ""
+}
+function logo2_TshAkE() {
+yellow ""
+yellow ""
+yellow ""
+yellow "           _____    _        _    _    _____    "
+yellow "          |_   _|__| |__    / \  | | _| ____|   "
+yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
+yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
+yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
+yellow "                                          "
+yellow ""
+yellow ""
+Dev    "            Dev @lIMyIl"
+Dev    "            Dev @EMADOFFICAL"
+Dev    "            Dev @IX00XI"
+Dev    "            Dev @H_173"
+Dev    "            Dev @lIESIl"
+Dev    "            Dev @h_k_a"
+yellow ""
+yellow ""
+green "     »»           TshAkE APi successfully installed                 ««      "
+green "     »»            Run this command for launch bot                  ««      "
+red   "     »»                   ./Faeder.sh                               ««      "
+}
+function install_DEVFAEDER() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -24,6 +77,8 @@ sudo apt-get upgrade -y
 
 sudo apt-get dist-upgrade -y
 
+}
+function DEVFAEDER() {
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  rm luarocks-2.2.2.tar.gz
@@ -50,66 +105,22 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo easy_install pip
  sudo pip install redis
  cd ..
- cd DEVFAEDER 
+}
+function DEVFAEDER() {
+ cd DEVFAEDER
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
+}
+function chmod_DEVFAEDER() {
  chmod +x tg
  chmod +x Faeder.sh
- ./Faeder.sh
-
+ chmod +x Faeder.sh
 }
 
-if [ "$1" = "install" ]; then
-  install
-  else
-
-if [ ! -f ./tg ]; then
-    echo "tg not found"
-    echo "Run $0 install"
-    exit 1
- fi
-if [ ! $token ]; then
-  echo -e "\e[1;36mToken Not found\e[0m"
- exit 1
- fi
-   curl "https://core.telegram.org/bot"$token"/sendmessage" -F
-   ./tg -s ./FAEDER.lua $@ --bot=$token
-
-fi
-
-# Now All Argument Support after ./STORM.sh !
-# Arguments :
-#   #   #   #   #   #   #   #   #   #
-#  --phone/-u                           specify username (would not be asked during authorization)
-#  --verbosity/-v                       increase verbosity (0-ERROR 1-WARNIN 2-NOTICE 3+-DEBUG-levels)
-#  --enable-msg-id/-N                   message num mode
-#  --config/-c                          config file name
-#  --profile/-p                         use specified profile
-#  --wait-dialog-list/-W                send dialog_list query and wait for answer before reading input
-#  --disable-colors/-C                  disable color output
-#  --disable-readline/-R                disable readline
-#  --alert/-A                           enable bell notifications
-#  --daemonize/-d                       daemon mode
-#  --logname/-L <log-name>              log file name
-#  --username/-U <user-name>            change uid after start
-#  --groupname/-G <group-name>          change gid after start
-#  --disable-output/-D                  disable output
-#  --tcp-port/-P <port>                 port to listen for input commands
-#  --udp-socket/-S <socket-name>        unix socket to create
-#  --exec/-e <commands>                 make commands end exit
-#  --disable-names/-I                   use user and chat IDs in updates instead of names
-#  --help/-h                            prints this help
-#  --accept-any-tcp                     accepts tcp connections from any src (only loopback by default)
-#  --disable-link-preview               disables server-side previews to links
-#  --bot/-b                             bot mode
-#  --json                               prints answers and values in json format
-#  --permanent-msg-ids                  use permanent msg ids
-#  --permanent-peer-ids                 use permanent peer ids
-#   #   #   #   #   #   #   #   #   #
-#Example To launch with second profile :
-# ./Faeder.sh -p second-profile
-
-#     OR
-
-# ./Faeder.sh --profile second-profile
+logo1_DEVFAEDER
+install_DEVFAEDER
+DEVFAEDER
+DEVFAEDER
+chmod_DEVFAEDER
+logo2_DEVFAEDER
