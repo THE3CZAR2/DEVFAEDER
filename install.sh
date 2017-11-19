@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+ #!/usr/bin/env bash
 cd DEVFAEDER
 red() {
   printf '\e[1;31m%s\n\e[0;39;49m' "$@"
@@ -18,43 +18,43 @@ Dev() {
 aa() {
  sudo apt-get install
 }
-function logo1_TshAkE() {
-green "     »»             Welcome to TshAkE APi bot                       ««      "
-green "     »»               I install it for you                          ««      "
+function logo1_DEVFAEDER() {
+green "        "
+green "     "
 yellow ""
 yellow ""
 yellow ""
-yellow "           _____    _        _    _    _____    "
-yellow "          |_   _|__| |__    / \  | | _| ____|   "
-yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
-yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
-yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
+yellow "            "
+yellow "         "
+yellow "            "
+yellow "               "
+yellow "           "
 yellow "                                          "
 yellow ""
 }
-function logo2_TshAkE() {
+function logo2_DEVFAEDER() {
 yellow ""
 yellow ""
 yellow ""
-yellow "           _____    _        _    _    _____    "
-yellow "          |_   _|__| |__    / \  | | _| ____|   "
-yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
-yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
-yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
+yellow "        "
+yellow "       "
+yellow "         "
+yellow "       "
+yellow "        "
 yellow "                                          "
 yellow ""
 yellow ""
-Dev    "            Dev @lIMyIl"
-Dev    "            Dev @EMADOFFICAL"
-Dev    "            Dev @IX00XI"
-Dev    "            Dev @H_173"
-Dev    "            Dev @lIESIl"
-Dev    "            Dev @h_k_a"
+Dev    "      "
+Dev    "        "
+Dev    "       "
+Dev    "    "
+Dev    "    "
+Dev    "       "
 yellow ""
 yellow ""
-green "     »»           TshAkE APi successfully installed                 ««      "
-green "     »»            Run this command for launch bot                  ««      "
-red   "     »»                   ./Faeder.sh                               ««      "
+green "   "
+green "      "
+red   "        "
 }
 function install_DEVFAEDER() {
 sudo apt-get update
