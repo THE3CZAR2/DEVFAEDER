@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/STORM
+cd $HOME/FAEDER
 token="TOKEN"
 install() {
      cd tg
@@ -39,7 +39,7 @@ if [ ! $token ]; then
 
 fi
 
-# Now All Argument Support after ./STORM.sh !
+# Now All Argument Support after ./fefe.sh !
 # Arguments :
 #   #   #   #   #   #   #   #   #   #
 #  --phone/-u                           specify username (would not be asked during authorization)
@@ -69,8 +69,8 @@ fi
 #  --permanent-peer-ids                 use permanent peer ids
 #   #   #   #   #   #   #   #   #   #
 #Example To launch with second profile :
-# ./STORM.sh -p second-profile
+# ./fefe.sh -p second-profile
 
 #     OR
 
-# ./STORM.sh --profile second-profile
+# ./fefe.sh --profile second-profile
