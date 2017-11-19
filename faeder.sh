@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-token="451801727:AAGO_WYovGNkptuaY-dSFopOyLKPHRz-PmM"
+token="TOKEN"
 function print_logo() {
 	echo -e "\e[38;5;77m"   
 echo -e "               "
